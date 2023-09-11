@@ -98,3 +98,13 @@ forge create --rpc-url <your_rpc_url> \
 ```
 
 (Additional information or usage guide for Anvil can be added here)
+
+```
+Debugging:
+
+If forge install doesn't pull all libraries from repo
+manual install:
+
+forge install foundry-rs/forge-std
+forge install dapphub/ds-test
+````

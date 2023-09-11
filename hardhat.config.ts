@@ -38,8 +38,8 @@ const config: HardhatUserConfig = {
     //   gas: 300000000,
     //   gasPrice: 100000000000,
     // },
-    arbitrumtestnet: {
-      url: process.env.POLYGON_RPC_URL,
+    arbitrumGoerli: {
+      url: process.env.ARBITRTUM_TESTNET_RPC_URL,
       accounts: [`${process.env.PRIVATE_KEY}`],
     },
     polygon: {
@@ -75,7 +75,7 @@ const config: HardhatUserConfig = {
       goerli: process.env.ETHERSCAN_API_KEY || "",
       polygonZKEVMTestnet: process.env.POLYGON_ETHERSCAN_API_KEY || "",
       lineaTestnet: process.env.LINEA_API_KEY || "",
-      arbitrumtestnet: process.env.ETHERSCAN_API_KEY || "",
+      arbitrumGoerli: process.env.ARBITRUM_API_KEY || "",
     },
 
     customChains: [
